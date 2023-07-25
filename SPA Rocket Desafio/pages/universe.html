@@ -1,0 +1,74 @@
+
+  <main>
+
+    <h1>O Universo</h1>
+
+    <p>
+      A palavra Universo deriva do latim universum. A palavra latina foi usada por Cícero e posteriormente por outros
+      autores com o mesmo sentido que é empregada atualmente. A palavra latina é derivada da contração poética unvorsum
+      — utilizada primeiramente por Lucrécio no Livro IV de seu “Sobre a Natureza das coisas” — que conecta un, uni (um)
+      com vorsum, versum (que significa "algo rodado, rolado ou mudado").
+    </p>
+
+    
+    <img class="arrow-right" onclick="document.querySelector('.exploration').click()" src="/images/arrow-right.svg" alt="seta para a direita" tabindex="0">
+
+    <img class="arrow-home" onclick="document.querySelector('.home').click()" src="/images/arrow-left.svg" alt="seta para a esquerda" tabindex="0">
+  </main>
+
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    :root {
+      font-size: 62.5%;
+    }
+
+    .arrow-right {
+      position: absolute;
+      right:10rem;
+      top: 50%;
+      cursor: pointer;
+    }
+
+    .arrow-home {
+      position: absolute;
+      left:10rem;
+      top: 50%;
+      cursor: pointer;
+    }
+
+    body {
+      background: url(/images/mountains-universe02.png) no-repeat center/cover;
+      height: 100vh;
+      font-family: 'Roboto', sans-serif;
+      overflow: hidden
+    }
+
+    main {
+      margin-left: 10.2rem;
+    }
+
+    main h1 {
+      font-weight: 700;
+      font-size: 4.8rem;
+      color: #E1E1E6;
+
+      margin: 6.3rem 0 1.6rem 0;
+    }
+
+    main p {
+      font-weight: 400;
+      font-size: 1.8rem;
+      line-height: 160%;
+      color: #E1E1E6;
+
+      width: 648px;
+      height: 203px;
+    }
+
+  </style>
